@@ -1,7 +1,13 @@
 # interact_ackermann
 Interaction nets vs GHC performance comparison
 
-current results:
+## Running the benchmark
+
+The C implementation of interaction nets requires [GJAlloc](https://github.com/arneg/GJAlloc) to be installed.
+
+Then just run `./bench.sh`, that will compile, run and time the programs.
+
+## Current results
 
 ```
 Command being timed: "./interact_ackermann_call_stack"
