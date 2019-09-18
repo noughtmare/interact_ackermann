@@ -16,7 +16,7 @@ nat2int i _ = i
 
 int2nat :: Int -> Nat
 int2nat 0 = Z
-int2nat x = x `seq` S (int2nat (x - 1))
+int2nat x = S (int2nat (x - 1))
 
 main :: IO ()
 main = print (nat2int 0 (ackermann (int2nat 3) (int2nat 12)))
