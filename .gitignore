@@ -1,0 +1,9 @@
+*.o
+*.hi
+GJAlloc/
+*.data
+*.out
+*.old
+interact_ackermann
+interact_ackermann_call_stack
+interact_ackermann-hs
